@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workforce Retention Risk Analytics | Portfolio Project</title>
+  <meta name="description" content="A portfolio extension of the GADA HR capstone project, reframed as a workforce retention risk analytics and decision-support case." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap">
+      <a class="brand" href="#top">Po-Yuan Wang</a>
+      <div class="nav-links">
+        <a href="#summary">Summary</a>
+        <a href="#pace">PACE</a>
+        <a href="#comparison">GADA vs Portfolio</a>
+        <a href="#dashboard">Dashboard Plan</a>
+        <a href="#ethics">Ethics</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-content">
+        <p class="eyebrow">GADA Capstone Portfolio Extension</p>
+        <h1>Workforce Retention Risk Analytics</h1>
+        <p class="hero-subtitle">
+          A predictive and decision-support framework for identifying employee attrition risk,
+          overwork patterns, promotion gaps, and actionable HR retention priorities.
+        </p>
+        <div class="hero-tags">
+          <span>HR Analytics</span>
+          <span>Predictive Modeling</span>
+          <span>Decision Support</span>
+          <span>PACE Workflow</span>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h2>Project Positioning</h2>
+        <p>
+          This project extends a standard course capstone into a portfolio-ready business analytics case.
+          The goal is not only to predict whether employees may leave, but also to translate model outputs
+          into retention strategy, risk segmentation, and stakeholder-facing recommendations.
+        </p>
+      </aside>
+    </section>
+
+    <section id="summary" class="section-wrap grid-two">
+      <div>
+        <p class="eyebrow">01 / Project Summary</p>
+        <h2>From model assignment to HR decision-support case</h2>
+        <p>
+          The original GADA capstone asks analysts to explore employee data and build a model predicting
+          whether an employee will leave the company. This portfolio version reframes the same analytical
+          foundation as a workforce risk management problem for HR stakeholders.
+        </p>
+        <p>
+          The project emphasizes the full business-to-analytics chain: problem framing, data quality review,
+          exploratory analysis, model construction, model interpretation, ethical use, and practical retention
+          recommendations.
+        </p>
+      </div>
+      <div class="info-panel">
+        <h3>Core Business Question</h3>
+        <p>
+          How can HR identify workforce risk patterns early enough to improve employee retention, reduce
+          overwork-related attrition, and prioritize managerial interventions?
+        </p>
+        <h3>Primary Outcome</h3>
+        <p>
+          A classification-based risk framework that supports HR decisions rather than simply labeling employees.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-wrap cards-section">
+      <p class="eyebrow">02 / Portfolio Value Add</p>
+      <h2>What makes this more than a course submission?</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Business Decision Layer</h3>
+          <p>Adds stakeholder questions, HR use cases, retention KPIs, and decision pathways beyond model scores.</p>
+        </article>
+        <article class="card">
+          <h3>Risk Segmentation</h3>
+          <p>Converts predicted attrition probability into Low, Moderate, High, and Critical risk groups.</p>
+        </article>
+        <article class="card">
+          <h3>Responsible Analytics</h3>
+          <p>Addresses data leakage, employee labeling risk, fairness concerns, and misuse of predictive outputs.</p>
+        </article>
+        <article class="card">
+          <h3>Executive Communication</h3>
+          <p>Prepares model outputs for Tableau dashboard design, management interpretation, and one-page summary use.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pace" class="section-wrap">
+      <p class="eyebrow">03 / Method</p>
+      <h2>PACE workflow adapted for portfolio presentation</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-letter">P</span>
+          <div>
+            <h3>Plan — Problem Framing</h3>
+            <p>Define HR stakeholders, turnover cost, business questions, target variable, and decision-support goals.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-letter">A</span>
+          <div>
+            <h3>Analyze — EDA and Data Quality Review</h3>
+            <p>Check missing values, duplicated records, outliers, class balance, workload patterns, satisfaction trends, and tenure effects.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-letter">C</span>
+          <div>
+            <h3>Construct — Predictive Model and Feature Engineering</h3>
+            <p>Compare logistic regression and tree-based models; test feature leakage concerns; create interpretable risk features such as overworked status.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-letter">E</span>
+          <div>
+            <h3>Execute — Recommendations and Decision Support</h3>
+            <p>Translate feature importance, probability scores, and risk groups into HR retention actions, policy review, and management communication.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap kpi-section">
+      <p class="eyebrow">04 / KPI Design</p>
+      <h2>Suggested HR analytics KPIs</h2>
+      <div class="kpi-grid">
+        <div class="kpi-card"><span>01</span><h3>Attrition Rate</h3><p>Employees who left / total employees.</p></div>
+        <div class="kpi-card"><span>02</span><h3>Overwork Rate</h3><p>Employees above the monthly workload threshold / total employees.</p></div>
+        <div class="kpi-card"><span>03</span><h3>Project Overload Rate</h3><p>Employees assigned to six or more projects / total employees.</p></div>
+        <div class="kpi-card"><span>04</span><h3>Promotion Gap Rate</h3><p>Employees without recent promotion / total employees.</p></div>
+        <div class="kpi-card"><span>05</span><h3>High-Risk Share</h3><p>Employees classified as High or Critical risk / total employees.</p></div>
+        <div class="kpi-card"><span>06</span><h3>Retention Priority Score</h3><p>Weighted indicator combining workload, tenure, promotion, and model risk.</p></div>
+      </div>
+    </section>
+
+    <section id="comparison" class="section-wrap">
+      <p class="eyebrow">05 / Differentiation</p>
+      <h2>Original GADA capstone vs. portfolio-enhanced project</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>Original GADA Capstone</th>
+              <th>Portfolio-Enhanced Version</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Project framing</td>
+              <td>Predict whether an employee will leave.</td>
+              <td>Build a workforce retention risk decision-support framework.</td>
+            </tr>
+            <tr>
+              <td>Audience</td>
+              <td>Course evaluator and general external stakeholder.</td>
+              <td>HR leaders, management teams, analytics hiring managers, and portfolio reviewers.</td>
+            </tr>
+            <tr>
+              <td>Output</td>
+              <td>Notebook and one-page project summary.</td>
+              <td>Notebook, website case page, KPI logic, dashboard plan, risk segmentation, and ethics notes.</td>
+            </tr>
+            <tr>
+              <td>Model use</td>
+              <td>Evaluate classification performance.</td>
+              <td>Convert prediction results into practical retention-priority groups.</td>
+            </tr>
+            <tr>
+              <td>Business layer</td>
+              <td>Basic recommendations after model interpretation.</td>
+              <td>Explicit decision pathways: monitor, review workload, investigate promotion gap, intervene.</td>
+            </tr>
+            <tr>
+              <td>Ethics and governance</td>
+              <td>General ethical considerations.</td>
+              <td>Dedicated responsible analytics section covering misuse, labeling, fairness, and leakage risk.</td>
+            </tr>
+            <tr>
+              <td>Portfolio signal</td>
+              <td>Demonstrates course completion and modeling practice.</td>
+              <td>Demonstrates business translation, stakeholder thinking, analytics maturity, and communication skill.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="dashboard" class="section-wrap grid-two">
+      <div>
+        <p class="eyebrow">06 / Future Tableau Layer</p>
+        <h2>Dashboard concept for later implementation</h2>
+        <p>
+          The future Tableau dashboard can present the project as an executive HR risk dashboard. It should
+          focus on summary KPIs, department-level patterns, workload risk, tenure risk, and risk segmentation.
+        </p>
+      </div>
+      <div class="info-panel">
+        <h3>Potential Dashboard Sheets</h3>
+        <ul>
+          <li>Attrition rate by department</li>
+          <li>Monthly hours vs. satisfaction</li>
+          <li>Project count vs. attrition</li>
+          <li>Tenure group risk profile</li>
+          <li>Risk segment distribution</li>
+          <li>Retention priority score by employee group</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ethics" class="section-wrap">
+      <p class="eyebrow">07 / Responsible Analytics</p>
+      <h2>Ethical use boundary</h2>
+      <div class="ethics-grid">
+        <div class="ethics-item">
+          <h3>Do not punish predicted risk</h3>
+          <p>The model should support retention, workload review, and employee assistance—not punitive targeting.</p>
+        </div>
+        <div class="ethics-item">
+          <h3>Check leakage-sensitive variables</h3>
+          <p>Satisfaction and evaluation scores may not always be available or may reflect processes already tied to attrition.</p>
+        </div>
+        <div class="ethics-item">
+          <h3>Review fairness patterns</h3>
+          <p>Risk results should be compared across salary, department, and tenure groups to avoid structural bias amplification.</p>
+        </div>
+        <div class="ethics-item">
+          <h3>Communicate limitations</h3>
+          <p>Predictions should be treated as decision-support signals, not definitive claims about individual employee intent.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap repo-section">
+      <p class="eyebrow">08 / Repository Structure</p>
+      <h2>Suggested repository organization</h2>
+      <pre><code>workforce-retention-risk-portfolio/
+├── index.html
+├── assets/
+│   ├── css/style.css
+│   └── js/main.js
+├── data/                 # Dataset notes or public/synthetic data boundary
+├── notebooks/            # GADA notebook and portfolio-enhanced notebook
+├── dashboard/            # Tableau plan, screenshots, workbook notes
+├── docs/                 # Executive summary and project write-up
+├── project-management/   # Stakeholder map, risk register, acceptance criteria
+└── references/           # Source log and ethical-use notes</code></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Portfolio project by Po-Yuan Wang · HR Analytics · Predictive Modeling · Decision Support</p>
+    <p class="small-note">Educational portfolio project. Not a production HR decision system.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
